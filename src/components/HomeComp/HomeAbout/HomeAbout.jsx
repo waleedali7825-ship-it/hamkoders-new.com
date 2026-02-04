@@ -14,16 +14,12 @@ const HomeAbout = () => {
                   About <span>us</span>
                 </h3>
                 <p className="para">
-                    We assist businesses in achieving online success by crafting
-                  innovative website designs and implementing digital marketing
-                  solutions that combine creativity, strategy, and measurable
-                  growth.
+                   Duis a orci blandit, gravida nisi ut, mattis est. Praesent ut maximus tellus. Quisque tempor hendrerit felis ut rutrum.
                 </p>
               </div>
               <div className="home-about-right">
                 <p className="para">
-                  We prioritize clean design, efficient coding, and strong partnerships to create user-friendly experiences that build trust and drive long-term success.
-                </p>
+                  Pellentesque habitant morbi tristique senectus et netus et  fames ac turpis egestas. Suspendisse lobortis in orci . Maecenas porta hendrerit mattis.                </p>
                 <div className="home-about-btn">
                   <Link href={"/about"} className="global-btn-outline">
                     Learn More
