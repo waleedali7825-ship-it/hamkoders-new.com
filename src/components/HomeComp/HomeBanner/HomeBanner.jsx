@@ -25,7 +25,7 @@ const HomeBanner = () => {
               </h3>
               <h1>
                 <span>Build</span>
-                {/* {showVideo && (
+                {showVideo && (
                   <motion.div
                     className="home-banner-video"
                     initial={{ width: 0, height: 150, opacity: 0 }}
@@ -42,12 +42,12 @@ const HomeBanner = () => {
                       <source src="https://res.cloudinary.com/dfx2k65zc/video/upload/v1761350940/portfolio_cys55j.mp4" type="video/mp4" />
                     </motion.video>
                   </motion.div>
-                )} */}
+                )}
                 Brands
               </h1>
               <h1>
                 Of
-                {/* {showVideo && (
+                {showVideo && (
                   <motion.div
                     className="home-banner-video1"
                     initial={{ width: 0, height: 150, opacity: 0 }}
@@ -64,12 +64,12 @@ const HomeBanner = () => {
                       <source src="https://res.cloudinary.com/dfx2k65zc/video/upload/v1762813711/Final_compressed_wq9aee.mp4" type="video/mp4" />
                     </motion.video>
                   </motion.div>
-                )} */}
+                )}
                 <span>Excellence</span>
               </h1>
 
               <p>
-                We are a design agency for startups specializing with user-friendly websites. Our effective marketing strategies with a view to supporting the growth of brands. We have an objective to facilitate start ups and established businesses, from initiation to continuous enhancement.
+                We don’t just build digital solutions, we craft experiences that resonate, innovate, and transform. With cutting-edge technology and a relentless commitment to excellence, we empower businesses to succeed without fail.
               </p>
             </div>
             <div className="home-banner-links">
