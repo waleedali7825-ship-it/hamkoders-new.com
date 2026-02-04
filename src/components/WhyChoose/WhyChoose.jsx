@@ -1,9 +1,9 @@
 import React from "react";
 import "./WhyChoose.css";
 import Image from "next/image";
-import dataDriven from "../../../public/images/data-driven.webp";
-import creativeVector from "../../../public/images/creative-vector.webp";
-import transparentVector from "../../../public/images/transparent-vector.webp";
+import dataDriven from "../../../public/images/data-driven.png";
+import creativeVector from "../../../public/images/creative-vector.png";
+import transparentVector from "../../../public/images/transparent-vector.png";
 import whyChooseUsRight from "../../../public/images/why-choose-us-right.webp";
 import Link from "next/link";
 import { BiSolidRightArrow } from "react-icons/bi";
@@ -25,14 +25,14 @@ const WhyChoose = () => {
               </div>
               <div className="why-choose-box-left-content">
                 <h3 className="same-heading">
-                  <span>Growth,</span> Our Mission
+                  <span>Data-Driven Approach,</span> Our Mission
                 </h3>
                 <p className="para">
                   Partner with a design agency for startups that crafts personalized digital strategies to achieve success.
                 </p>
                 <div className="why-choose-box-readMore">
                   <Link href={"#"} onClick={(e) => e.preventDefault()} data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Read More <BiSolidRightArrow color="#a0d815" />
+                    Read More <BiSolidRightArrow color="#ffff " />
                   </Link>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const WhyChoose = () => {
                 </p>
                 <div className="why-choose-box-readMore">
                   <Link href={"#"} onClick={(e) => e.preventDefault()} data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Read More <BiSolidRightArrow color="#a0d815" />
+                    Read More <BiSolidRightArrow color="#ffff" />
                   </Link>
                 </div>
               </div>
@@ -78,7 +78,7 @@ const WhyChoose = () => {
                 </p>
                 <div className="why-choose-box-readMore">
                   <Link href={"#"} onClick={(e) => e.preventDefault()} data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Read More <BiSolidRightArrow color="#a0d815" />
+                    Read More <BiSolidRightArrow color="#ffff" />
                   </Link>
                 </div>
               </div>
@@ -105,7 +105,7 @@ const WhyChoose = () => {
                   </p>
                   <div className="why-choose-image-box-btn">
                     <Link href={"#"} className="open-chat">
-                      Let's Talk Strategy <BiSolidRightArrow color="#a0d815" />
+                      Let's Talk Strategy <BiSolidRightArrow color="#D41423 " />
                     </Link>
                   </div>
                 </div>
