@@ -3,7 +3,7 @@ import React from "react";
 import "./Header.css";
 import Link from "next/link";
 import Image from "next/image";
-import LOGO_IMAGE from "../../../public/images/logo.webp";
+import LOGO_IMAGE from "../../../public/images/logo-1.png";
 
 const Header = () => {
   return (
