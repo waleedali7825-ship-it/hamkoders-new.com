@@ -6,8 +6,8 @@
   text-align: center;
   background: linear-gradient(
     180deg,
-    #EF303E(159, 216, 21, 0.14) 0%,
-    #A00D18(159, 216, 21, 0) 100%
+     rgb(239, 48, 62) 0%,
+    rgb(160, 13, 24) 100%
   );
   padding: 20px 0px;
   border-top: 2px solid #D41423;
