@@ -1,0 +1,256 @@
+.portfolio-banner-sec {
+  background-image: url("../../../public/images/portfolio-banner.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 125px 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.portfolio-banner-content h1 {
+  text-align: center;
+}
+
+.portfolio-banner-content h4 {
+  font-size: 40px;
+  color: var(--white-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.portfolio-banner-content p {
+  font-size: 22px;
+  /* width: 712px; */
+  text-align: center;
+}
+
+.portfolio-banner-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-banner-form {
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff33;
+  backdrop-filter: blur(117.19999694824219px);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.portfolio-banner-form::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 2px;
+  background: linear-gradient(180deg, #fff 0%, rgba(159, 216, 21, 0) 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.portfolio-banner-form h4 {
+  font-size: 65px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.portfolio-banner-form form input {
+  margin-bottom: 14px;
+  width: 100%;
+  height: 60px;
+  padding: 0px 20px;
+  outline: none;
+  background-color: #ffffff1a;
+  border: 1px solid #ffffff;
+  color: var(--white-color);
+}
+
+.portfolio-banner-form form input::placeholder {
+  color: #ffffff80;
+}
+
+.portfolio-banner-form form textarea {
+  margin-bottom: 14px;
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  outline: none;
+  background-color: #ffffff1a;
+  border: 1px solid #ffffff;
+  color: var(--white-color);
+}
+
+.portfolio-banner-form form textarea::placeholder {
+  color: #ffffff80;
+}
+
+.portfolio-banner-form form p a {
+  color: var(--theme-color);
+}
+
+.portfolio-banner-form form button {
+  width: 100%;
+  height: 55px;
+  border: none;
+  outline: none;
+  background-color: var(--theme-color);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+@media(max-width: 1536px) {
+  .portfolio-banner-form h4 {
+    font-size: 55px;
+  }
+
+  .portfolio-banner-content h1 {
+    font-size: 75px;
+  }
+
+  .portfolio-banner-content h4 {
+    font-size: 36px;
+  }
+}
+
+@media(max-width: 1440px) {
+  .portfolio-banner-sec {
+    padding: 80px 0px;
+  }
+
+  .portfolio-banner-content h1 {
+    font-size: 55px;
+  }
+
+  .portfolio-banner-form h4 {
+    font-size: 50px;
+  }
+}
+
+@media(max-width: 1366px) {
+  .portfolio-banner-content h1 {
+    font-size: 50px;
+  }
+
+  .portfolio-banner-content h4 {
+    font-size: 32px;
+  }
+
+  .portfolio-banner-content p {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .portfolio-banner-form h4 {
+    font-size: 45px;
+  }
+
+  .portfolio-banner-form p {
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 768px) {
+  .portfolio-banner-sec {
+    padding: 50px 0px;
+  }
+
+  .portfolio-banner-content h1 {
+    font-size: 42px;
+  }
+
+  .portfolio-banner-content {
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 575px) {
+  .portfolio-banner-content h1 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .portfolio-banner-content h4 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .portfolio-banner-content p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .portfolio-banner-btn {
+    justify-content: center;
+  }
+
+  .portfolio-banner-form h4 {
+    text-align: center;
+    font-size: 38px;
+  }
+
+  .portfolio-banner-form form button {
+    font-size: 18px;
+  }
+}
+
+@media(max-width: 440px) {
+  .portfolio-banner-content h1 {
+    font-size: 24px;
+  }
+
+  .portfolio-banner-content h4 {
+    font-size: 18px;
+  }
+
+  .portfolio-banner-form h4 {
+    font-size: 26px;
+  }
+
+  .portfolio-banner-form p {
+    text-align: center;
+  }
+
+  .portfolio-banner-form form input {
+    height: 50px;
+  }
+}
+
+@media(max-width:375px) {
+  .portfolio-banner-content h1 {
+    font-size: 20px;
+  }
+
+  .portfolio-banner-content h4 {
+    font-size: 16px;
+  }
+
+  .portfolio-banner-content p {
+    font-size: 14px;
+  }
+
+  .portfolio-banner-form {
+    padding: 20px;
+  }
+
+  .portfolio-banner-form form button {
+    font-size: 16px;
+  }
+
+  .portfolio-banner-form form input {
+    font-size: 14px;
+    padding: 14px;
+  }
+
+  .portfolio-banner-form form textarea {
+    font-size: 14px;
+  }
+
+  .portfolio-banner-sec {
+    padding: 30px 0px;
+  }
+}

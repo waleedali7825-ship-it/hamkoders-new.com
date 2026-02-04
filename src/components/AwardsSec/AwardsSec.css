@@ -1,0 +1,84 @@
+.awards-sec {
+    padding-bottom: 100px;
+}
+
+.awards-sec .awards-content h2 {
+    font-weight: 600;
+    font-size: 120px;
+    margin-bottom: 28px;
+    text-align: center;
+    color: var(--black-color);
+}
+
+.awards-sec .awards-content {
+    margin-bottom: 28px;
+}
+
+.awards-sec .awards-content p {
+    color: var(--black-color);
+    text-align: center;
+    font-size: 22px;
+}
+
+.awards-image-box {
+    padding: 40px 53px;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(180deg, #FAFFED 0%, rgba(250, 255, 237, 0) 100%);
+    text-align: center;
+}
+
+.awards-image-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 2px;
+    background: linear-gradient(180deg, #9fd815 0%, rgba(159, 216, 21, 0) 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+}
+
+@media(max-width:1536px) {
+    .awards-image-box img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width:768px) {
+    .awards-sec .awards-content p {
+        font-size: 18px;
+    }
+
+    .awards-sec .awards-content h2 {
+        font-size: 80px;
+        margin-bottom: 10px;
+    }
+
+    .awards-image-box {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:440px) {
+    .awards-sec .awards-content h2 {
+        font-size: 50px;
+    }
+
+    .awards-sec .awards-content p {
+        font-size: 14px;
+    }
+
+    .awards-image-box img {
+        width: 70%;
+    }
+
+    .awards-sec {
+        padding-bottom: 30px;
+    }
+}

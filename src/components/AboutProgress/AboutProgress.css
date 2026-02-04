@@ -1,0 +1,58 @@
+.about-progress-sec {
+  padding: 85px 0px 0px;
+}
+
+.about-progress-box {
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(159, 216, 21, 0.14) 0%,
+    rgba(159, 216, 21, 0) 100%
+  );
+  padding: 20px 0px;
+  border-top: 2px solid #9fd815;
+  border-bottom: none;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-image: linear-gradient(180deg, #9fd815 0%, rgba(159, 216, 21, 0) 100%);
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    180deg,
+    #9fd815 0%,
+    rgba(159, 216, 21, 0) 100%
+  );
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+}
+
+.about-progress-box h3 {
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--black-color);
+  margin-bottom: 0;
+  line-height: 72px;
+}
+
+.about-progress-box h4 {
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--theme-color);
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+@media(max-width:768px){
+  .about-progress-box {
+    margin-bottom: 30px;
+}
+}
+
+@media(max-width:575px){
+  .about-progress-box h4 {
+    font-size: 16px;
+  }
+
+  .about-progress-sec {
+    padding: 50px 0 0;
+}
+}

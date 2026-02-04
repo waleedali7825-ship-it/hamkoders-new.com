@@ -1,0 +1,122 @@
+.android-app-banner {
+    background-image: url("../../../public/images/android-app-dev.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 115px 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.android-app-vector-content h1 {
+    font-size: 88px;
+}
+
+.android-app-banner .android-app-vector-image {
+    text-align: end;
+}
+
+.android-app-vector-content p {
+    font-size: 22px;
+}
+
+.android-app-vector-content p span {
+    color: var(--theme-color);
+}
+
+.android-app-banner-link {
+    display: flex;
+}
+
+@media(max-width:1536px) {
+    .android-app-vector-content h1 {
+        font-size: 75px;
+    }
+
+    .android-app-banner .android-app-vector-image img {
+        width: 500px;
+        height: auto;
+    }
+
+    .android-app-banner {
+        padding: 100px 0px;
+    }
+
+    .android-app-vector-content p {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:1440px) {
+    .android-app-banner .android-app-vector-image img {
+        width: 400px;
+    }
+
+    .android-app-vector-content h1 {
+        font-size: 65px;
+    }
+}
+
+@media(max-width:768px) {
+    .android-app-banner {
+        padding: 50px 0px;
+    }
+
+    .android-app-vector-content h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .android-app-vector-content p {
+        text-align: center;
+    }
+
+    .android-app-banner-link {
+        justify-content: center;
+    }
+
+    .android-app-banner .android-app-vector-image {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:575px) {
+    .android-app-vector-content h1 {
+        font-size: 40px;
+    }
+
+    .android-app-vector-content p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:440px) {
+    .android-app-vector-content h1 {
+        font-size: 30px;
+    }
+
+    .android-app-vector-content p {
+        font-size: 14px;
+    }
+
+    .android-app-banner .android-app-vector-image img {
+        width: 250px;
+    }
+}
+
+@media(max-width:414px) {
+    .android-app-vector-content h1 {
+        font-size: 26px;
+    }
+}
+
+@media(max-width:375px) {
+    .android-app-vector-content h1 {
+        font-size: 24px;
+    }
+
+    .android-app-banner {
+        padding: 30px 0px;
+    }
+}

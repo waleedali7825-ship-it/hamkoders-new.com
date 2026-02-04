@@ -1,0 +1,129 @@
+.home-about-content {
+  background-image: url("../../../../public/images/home-about.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  padding: 512px 30px 100px;
+}
+
+.home-about-btn {
+  display: flex;
+}
+
+.home-about-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.home-about-right p {
+  text-align: end;
+  width: 290px;
+}
+
+.home-about-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home-about-left p {
+  width: 400px;
+}
+
+.home-about-left h3 {
+  font-size: 70px;
+}
+
+@media(max-width:1536px){
+  .home-about-content {
+    padding: 430px 30px 100px;
+  }
+
+  .home-about-left p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .home-about-right p {
+    font-size: 14px;
+  }
+}
+
+@media(max-width:1440px){
+      .home-about-content {
+        padding: 404px 30px 100px;
+    }
+}
+
+@media(max-width:1366px){
+         .home-about-content {
+        padding: 352px 30px 100px;
+    }
+}
+
+@media(max-width:768px){
+         .home-about-content {
+        padding: 152px 20px 80px;
+    }
+
+    .home-about-left h3 {
+    font-size: 50px;
+}
+
+.home-about-left p {
+    width: 100%;
+}
+
+.home-about-right p {
+    width: 100%;
+}
+}
+
+@media(max-width:575px){
+  .home-about-content {
+    background-image: none;
+  }
+  .home-about-bg-mobile {
+    background-image: url("../../../../public/images/home-about-mobile.webp");
+  }
+
+  .home-about-bg-mobile {
+    flex-direction: column;
+    padding: 190px 20px 80px;
+}
+
+.home-about-left {
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.home-about-left p {
+    text-align: center;
+}
+
+.home-about-right {
+    align-items: center;
+}
+
+.home-about-right p {
+    text-align: center;
+}
+}
+
+@media(max-width: 440px) {
+ .home-about-bg-mobile {
+  padding: 124px 20px 70px;
+        border-radius: 20px;
+ }
+}
+
+@media(max-width: 390px) {
+ .home-about-bg-mobile {
+    padding: 124px 10px 30px;
+}
+}

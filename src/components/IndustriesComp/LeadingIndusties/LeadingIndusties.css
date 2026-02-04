@@ -1,0 +1,305 @@
+.leading-industies-sec {
+  padding: 92px 0px 30px;
+  background: linear-gradient(180deg, #000000 0%, #434343 76.21%);
+  margin: 0 30px;
+  border-radius: 30px;
+}
+
+.leading-industries-content {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.leading-industries-content p {
+  font-size: 22px;
+}
+
+.leading-industries-content h2 {
+  font-size: 65px;
+}
+
+.leading-industrial-box {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 27px 0px 15px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leading-industrial-box p {
+  text-align: center;
+  font-size: 22px;
+}
+
+.leading-industrial-box h2 {
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.leading-industrial-box1 {
+  background-image: url("../../../../public/images/automotive.webp");
+}
+
+.leading-industrial-box2 {
+  background-image: url("../../../../public/images/ecommerce.webp");
+}
+
+.leading-industrial-box3 {
+  background-image: url("../../../../public/images/healthcare.webp");
+}
+
+.leading-industrial-box4 {
+  background-image: url("../../../../public/images/agriculture.webp");
+}
+
+.leading-industrial-box5 {
+  background-image: url("../../../../public/images/education.webp");
+}
+
+.leading-industrial-box6 {
+  background-image: url("../../../../public/images/legal.webp");
+}
+
+.leading-industrial-box7 {
+  background-image: url("../../../../public/images/b2b.webp");
+}
+
+.leading-industrial-box8 {
+  background-image: url("../../../../public/images/food.webp");
+}
+
+.leading-industrial-box9 {
+  background-image: url("../../../../public/images/travel.webp");
+}
+
+.leading-industrial-box10 {
+  background-image: url("../../../../public/images/crm.webp");
+}
+
+.leading-industrial-box10X {
+  background-image: url("../../../../public/images/mechanical.webp");
+}
+
+.leading-industrial-box11 {
+  background-image: url("../../../../public/images/fashion.webp");
+}
+
+.leading-industrial-box12 {
+  background-image: url("../../../../public/images/logistic.webp");
+}
+
+.leading-industrial-box13 {
+  background-image: url("../../../../public/images/finance.webp");
+}
+
+.leading-industrial-box14 {
+  background-image: url("../../../../public/images/real-state.webp");
+}
+
+.leading-industries-slides .swiper {
+  overflow-y: hidden;
+  overflow-x: clip;
+  height: 650px;
+}
+
+.leading-industries-slides .swiper-pagination-bullet {
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+}
+
+.leading-industries-slides .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: var(--theme-color);
+  position: relative;
+  z-index: 1;
+}
+
+.leading-industries-slides .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 23px;
+  height: 23px;
+  border: 2px solid var(--theme-color);
+  top: -4px;
+  left: -4px;
+  border-radius: 100px;
+}
+
+@media(max-width:1536px) {
+  .leading-industrial-box {
+    height: 482px;
+    padding: 27px 15px 15px;
+  }
+
+  .leading-industrial-box p {
+    font-size: 20px;
+  }
+}
+
+@media(max-width:1440px) {
+  .leading-industrial-box {
+    height: 465px;
+  }
+}
+
+@media(max-width:1366px) {
+  .leading-industrial-box {
+    height: 426px;
+  }
+
+  .leading-industries-slides .swiper {
+    height: 550px;
+  }
+}
+
+@media(max-width:768px) {
+  .leading-industies-sec {
+    padding: 62px 0px 30px;
+  }
+
+  .leading-industries-content h2 {
+    font-size: 40px;
+  }
+
+  .leading-industries-content p {
+    font-size: 18px;
+  }
+
+  .leading-industries-content p br {
+    display: none;
+  }
+
+  .leading-industrial-box {
+    height: 362px;
+  }
+
+  .leading-industrial-box p {
+    font-size: 18px;
+  }
+
+  .leading-industries-slides .swiper {
+    height: 450px;
+  }
+}
+
+@media(max-width:575px) {
+  .leading-industries-content h2 {
+    font-size: 30px;
+  }
+
+  .leading-industries-content p {
+    font-size: 16px;
+  }
+
+  .leading-industries-content {
+    margin-bottom: 40px;
+  }
+
+  .leading-industrial-box {
+    height: 537px;
+  }
+
+  .leading-industries-slides .swiper {
+    height: 600px;
+  }
+}
+
+@media(max-width:440px) {
+  .leading-industies-sec {
+    margin: 0 10px;
+    padding: 40px 0px 30px;
+  }
+
+  .leading-industries-content h2 {
+    font-size: 25px;
+  }
+
+  .leading-industries-content p {
+    font-size: 15px;
+  }
+
+  .leading-industrial-box {
+    height: 427px;
+  }
+
+  .leading-industries-slides .swiper {
+    height: 500px;
+  }
+}
+
+.leading-industrial-box h2 {
+  font-size: 30px;
+}
+
+@media(max-width:428px) {
+  .leading-industrial-box {
+    height: 413px;
+  }
+
+  .leading-industrial-box p {
+    font-size: 16px;
+  }
+
+  .leading-industries-content h2 {
+    font-size: 24px;
+  }
+}
+
+@media(max-width:414px) {
+  .leading-industries-content h2 {
+    font-size: 22px;
+  }
+
+  .leading-industries-content p {
+    font-size: 14px;
+  }
+
+  .leading-industrial-box {
+    height: 397px;
+  }
+
+  .leading-industries-slides .swiper {
+    height: 450px;
+  }
+
+  .leading-industies-sec {
+    padding: 30px 0px 20px;
+  }
+}
+
+@media(max-width:390px) {
+  .leading-industrial-box {
+    height: 370px;
+  }
+
+  .leading-industrial-box p {
+    font-size: 14px;
+  }
+}
+
+@media(max-width:375px) {
+  .leading-industries-content h2 {
+    font-size: 20px;
+  }
+
+  .leading-industrial-box {
+    height: 353px;
+  }
+
+  .leading-industrial-box h2 {
+    font-size: 26px;
+  }
+}
+
+@media(max-width:360px) {
+  .leading-industrial-box {
+    height: 336px;
+  }
+}

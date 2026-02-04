@@ -1,0 +1,139 @@
+.our-work-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.our-work-content h2 {
+  color: var(--black-color);
+  margin-bottom: 0;
+}
+
+.our-work-btn a {
+  border-color: var(--black-color);
+  color: var(--black-color);
+}
+
+.our-work-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.our-work-right p {
+  color: var(--black-color);
+  text-align: end;
+}
+
+.our-work-box {
+  width: 100%;
+  margin-bottom: 30px;
+  border: 2px solid var(--theme-color);
+  border-radius: 10px;
+}
+
+.our-work-box img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 350px;
+  transition: 5s all ease;
+  border-radius: 10px;
+}
+
+.our-work-box img:hover {
+  object-position: bottom;
+}
+
+.our-work-box-content {
+  margin-top: 15px;
+}
+
+.our-work-box-content p {
+  color: var(--black-color);
+  margin-bottom: 0;
+}
+
+.our-work-box-content h4 {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--black-color);
+}
+
+.our-work-box-content h4 span {
+  color: var(--theme-color);
+}
+
+.our-work-btn {
+    display: flex;
+}
+
+@media(max-width: 1536px) {
+  .our-work-box-content h4 {
+    font-size: 36px;
+  }
+}
+
+@media(max-width: 1440px) {
+  .our-work-box-content h4 {
+    font-size: 32px;
+  }
+}
+
+@media(max-width: 1366px) {
+  .our-work-box {
+    margin-bottom: 60px;
+}
+
+.our-work-box-content p {
+    font-size: 15px;
+}
+}
+
+@media(max-width: 768px) {
+.our-work-content {
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.our-work-box {
+  margin-bottom: 30px;
+}
+
+.our-work-content h2 {
+    text-align: center;
+}
+
+.our-work-right p {
+    text-align: center;
+}
+
+.our-work-box-content h4 {
+    font-size: 19px;
+}
+
+.our-work-box-content p {
+    font-size: 14px;
+}
+
+.our-work-right {
+    align-items: center;
+}
+}
+
+@media(max-width:440px){
+  .our-work-content h2 {font-size: 32px;}
+
+.our-work-right p {
+    font-size: 15px;
+}
+}
+
+@media(max-width:375px){
+  .our-work-content h2 {
+    font-size: 27px;
+}
+}

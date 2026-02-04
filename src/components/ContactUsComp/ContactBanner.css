@@ -1,0 +1,14 @@
+.contact-banner-sec {
+  background-image: url("../../../public/images/contactus-banner.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 125px 0 400px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.contact-banner-content h1 {
+  text-align: center;
+  margin-bottom: 0;
+}

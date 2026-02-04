@@ -1,0 +1,108 @@
+.industries-banner-sec {
+  background-image: url("../../../public/images/industries-bg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 180px 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.industries-banner-content h1 {
+  color: var(--black-color);
+  text-align: center;
+  font-weight: 800;
+}
+
+.industries-banner-content h4 {
+  color: var(--black-color);
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.industries-banner-content h4 span {
+  color: var(--theme-color);
+}
+
+.industries-banner-content p {
+  text-align: center;
+  margin-top: 25px;
+  color: var(--black-color);
+  font-size: 22px;
+}
+
+.industries-content-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+@media(max-width:1536px) {
+  .industries-banner-sec {
+    padding: 100px 0px;
+  }
+
+  .industries-banner-content h1 {
+    font-size: 75px;
+  }
+}
+
+@media(max-width:768px) {
+  .industries-banner-content h1 {
+    font-size: 50px;
+  }
+
+  .industries-banner-content p {
+    font-size: 18px;
+  }
+}
+
+@media(max-width:575px) {
+  .industries-banner-sec {
+    padding: 50px 0px;
+  }
+
+  .industries-banner-content h1 {
+    font-size: 36px;
+  }
+
+  .industries-banner-content p {
+    font-size: 16px;
+  }
+
+  .industries-banner-content p br {
+    display: none;
+  }
+
+  .industries-content-btn {
+    margin-top: 20px;
+  }
+}
+
+@media(max-width:440px) {
+  .industries-banner-content h1 {
+    font-size: 26px;
+  }
+
+  .industries-banner-content p {
+    margin-top: 10px;
+  }
+}
+
+@media(max-width:414px) {
+  .industries-banner-content h1 {
+    font-size: 24px;
+  }
+}
+
+@media(max-width:375px) {
+  .industries-banner-content h1 {
+    font-size: 22px;
+  }
+
+  .industries-banner-sec {
+    padding: 40px 0px;
+  }
+}

@@ -1,0 +1,194 @@
+.gamedev-servicesBox .gamedev-servicesBox-bg {
+  background-image: url("../../../../public/images/webdev-servicesBox-bg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 45px 24px 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.gamedev-servicesBox .gamedev-servicesBox-bg .gamedev-servicesBox-bg-img {
+  transform: translateY(100%);
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+.gamedev-servicesBox
+  .gamedev-servicesBox-bg
+  .gamedev-servicesBox-bg-img.reveal {
+  animation: slideUpReveal 1.1s ease-out forwards;
+}
+
+@keyframes slideUpReveal {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.gamedev-servicesBox .gamedev-servicesBox-bg .gamedev-servicesBox-bg-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.gamedev-servicesBox-content {
+  padding: 40px 45px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 39.7px 0px #00000026 inset;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.gamedev-servicesBox-contentTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gamedev-servicesBox-contentTop h2 {
+  color: var(--black-color);
+  font-size: 45px;
+}
+
+.gamedev-servicesBox-content p {
+  color: var(--black-color);
+  font-size: 22px;
+}
+
+.gamedev-servicesBox-content-box {
+  margin-top: 30px;
+}
+
+.gamedev-servicesBox-content-box-link a {
+  padding: 26px 17px;
+  border: 0.5px solid #000000;
+  width: 100%;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: var(--black-color);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all ease 0.2s;
+}
+
+.gamedev-servicesBox-content-box-link a:hover {
+  background: linear-gradient(180deg, #d8fd7e 0%, #a4db1e 100%),
+    linear-gradient(180deg, #d8fd7e 9.33%, rgba(216, 253, 126, 0) 73.63%);
+}
+
+.gamedev-servicesBox-sec {
+  margin-bottom: 90px;
+}
+
+@media(max-width:1536px){
+  .gamedev-servicesBox-content-box-link a {
+    font-size: 22px;
+}
+}
+
+@media(max-width:1366px) {
+  .gamedev-servicesBox-content-box-link a {
+    font-size: 20px;
+  }
+}
+
+@media(max-width:768px) {
+  .gamedev-servicesBox-contentTop h2 {
+    font-size: 38px;
+    margin: 0;
+  }
+
+  .gamedev-servicesBox-contentTop-btn {
+    display: flex;
+  }
+
+  .gamedev-servicesBox-contentTop-btn a {
+    padding: 12px 40px;
+    font-size: 15px;
+  }
+
+  .gamedev-servicesBox-contentTop {
+    margin-bottom: 20px;
+  }
+
+  .gamedev-servicesBox-content p {
+    font-size: 18px;
+  }
+}
+
+
+@media(max-width:575px) {
+  .gamedev-servicesBox-contentTop {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .gamedev-servicesBox-content p {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+@media(max-width:440px) {
+  .gamedev-servicesBox-contentTop h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .gamedev-servicesBox-content {
+    padding: 40px 20px;
+  }
+
+  .gamedev-servicesBox-content-box-link a {
+    font-size: 15px;
+    padding: 20px 17px;
+  }
+
+  .gamedev-servicesBox-sec {
+    margin-bottom: 30px;
+}
+}
+
+@media(max-width:390px) {
+  .gamedev-servicesBox-content p {
+    font-size: 15px;
+  }
+
+  .gamedev-servicesBox-content-box-link a {
+    padding: 17px 17px;
+    font-size: 14px;
+  }
+}
+
+@media(max-width:375px) {
+  .gamedev-servicesBox-content {
+    padding: 20px 20px;
+  }
+
+  .gamedev-servicesBox-content p {
+    font-size: 14px;
+  }
+
+  .gamedev-servicesBox-content-box-link a {
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+@media(max-width:360px) {
+  .gamedev-servicesBox-contentTop h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+}

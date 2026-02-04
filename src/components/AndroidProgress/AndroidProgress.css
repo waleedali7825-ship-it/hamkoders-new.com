@@ -1,0 +1,99 @@
+.android-progess-sec-main {
+    background: linear-gradient(180deg, #FAFFED 0%, rgba(250, 255, 237, 0) 100%);
+    padding: 32px 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.android-progess-sec-main::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 2px;
+    background: linear-gradient(180deg, #9fd815 0%, rgba(159, 216, 21, 0) 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+}
+
+.android-progress-box h3 {
+    background: linear-gradient(180deg, #A0D815 21.63%, rgba(160, 216, 21, 0) 66.74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 145px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.android-progress-box h4 {
+    background: linear-gradient(180deg, #5B5B5B 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: -56px;
+}
+
+.android-progress-sec {
+    padding-bottom: 100px;
+}
+
+@media(max-width:1536px) {
+    .android-progress-box h3 {
+        font-size: 120px;
+    }
+
+    .android-progress-box h4 {
+        font-size: 26px;
+    }
+}
+
+@media(max-width:1366px) {
+    .android-progress-box h3 {
+        font-size: 100px;
+    }
+
+    .android-progress-box h4 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width:768px) {
+    .android-progress-box {
+        margin-bottom: 10px;
+    }
+
+    .android-progress-sec {
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width:390px) {
+    .android-progress-box h3 {
+        font-size: 82px;
+    }
+
+    .android-progress-box h4 {
+        font-size: 18px;
+    }
+
+    .android-progress-sec {
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width:375px) {
+    .android-progress-box h3 {
+        font-size: 74px;
+    }
+
+    .android-progress-box h4 {
+        font-size: 16px;
+    }
+}

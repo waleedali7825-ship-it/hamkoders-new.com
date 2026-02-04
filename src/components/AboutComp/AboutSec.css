@@ -1,0 +1,144 @@
+.home-about-content {
+  background-image: url("../../../public/images/home-about.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  padding: 560px 30px 100px;
+}
+home-about-content home-about-contentXtra
+.home-about-btn {
+  display: flex;
+}
+
+.home-about-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.home-about-right p {
+  text-align: end;
+  width: 290px;
+}
+
+.home-about-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home-about-left p {
+  width: 400px;
+}
+
+.home-about-left h3 {
+  font-size: 70px;
+}
+
+.home-about-right h3 {
+  font-size: 70px;
+}
+
+.home-about-rightXtra p {
+  width: 410px;
+}
+
+.home-about-content.home-about-contentXtra {
+  padding: 510px 30px 100px;
+}
+
+
+
+@media(max-width:1536px) {
+  .home-about-content.home-about-contentXtra {
+    padding: 380px 30px 100px;
+}
+}
+
+@media(max-width:1440px) {
+      .home-about-content.home-about-contentXtra {
+        padding: 352px 30px 100px;
+    }
+}
+
+@media(max-width:1366px) {
+          .home-about-content.home-about-contentXtra {
+        padding: 300px 30px 100px;
+    }
+}
+
+@media(max-width:768px) {
+          .home-about-content.home-about-contentXtra {
+    padding: 80px 30px 85px;
+    align-items: center;
+}
+
+.home-about-right h3 {
+    font-size: 43px;
+}
+
+.home-about-left h3 {
+    font-size: 43px;
+}
+
+.home-about-left p {
+    width: 100%;
+}
+
+.home-about-rightXtra p {
+    width: 100%;
+}
+}
+
+@media(max-width:575px){
+ .home-about-content.home-about-contentXtra .home-about-content {
+    background-image: none;
+  }
+ .home-about-content.home-about-contentXtra {
+    background-image: url("../../../public/images/home-about-mobile.webp");
+    flex-direction: column;
+    padding: 143px 20px 60px;
+  }
+
+  .home-about-right {align-items: center;}
+
+.home-about-left {
+    align-items: center;
+}
+
+.home-about-left p {
+    text-align: center;
+}
+
+.home-about-rightXtra p {
+    text-align: center;
+}
+}
+
+@media(max-width:440px){
+ .home-about-content.home-about-contentXtra {
+    border-radius: 20px;
+}
+}
+
+@media(max-width:375px){
+.home-about-left h3 {
+    font-size: 36px;
+}
+
+.home-about-right h3 {
+    font-size: 36px;
+}
+
+.home-about-left p {
+    font-size: 14px;
+}
+
+.home-about-right p {
+    font-size: 14px;
+}
+}
