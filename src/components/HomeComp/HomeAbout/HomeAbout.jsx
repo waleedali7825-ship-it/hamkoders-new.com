@@ -14,8 +14,7 @@ const HomeAbout = () => {
                   About <span>us</span>
                 </h3>
                 <p className="para">
-                  Pellentesque habitant morbi tristique senectus et netus et  fames ac turpis egestas. Suspendisse lobortis in orci . Maecenas porta hendrerit mattis. 
-                   Duis a orci blandit, gravida nisi ut, mattis est. Praesent ut maximus tellus. Quisque tempor hendrerit felis ut rutrum.
+                     Duis a orci blandit, gravida nisi ut, mattis est. Praesent ut maximus tellus. Quisque tempor hendrerit felis ut rutrum.
                 </p>
               </div>
               <div className="home-about-right">
