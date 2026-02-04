@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <section className="hero-section position-relative">
       {/* Top Tag */}
-      <div className="tag tag-left">Branding</div>
+      {/* <div className="tag tag-left">Branding</div> */}
 
       <div className="hero-scroll">
         {/* Top text */}
@@ -42,7 +42,7 @@ export default function HeroSection() {
       </div>
 
       {/* Bottom tag */}
-      <div className="tag tag-right">Digital</div>
+      {/* <div className="tag tag-right">Digital</div> */}
     </section>
   );
 }
