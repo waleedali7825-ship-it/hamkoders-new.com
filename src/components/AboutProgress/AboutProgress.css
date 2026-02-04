@@ -15,12 +15,12 @@
   border-bottom: none;
   border-left: 2px solid transparent;
   border-right: 2px solid transparent;
-  border-image: linear-gradient(180deg, #D41423 0%, rgba(159, 216, 21, 0) 100%);
+  border-image: linear-gradient(180deg, #D41423 0%, rgb(212, 20, 35)100%);
   border-image-slice: 1;
   border-image-source: linear-gradient(
     180deg,
-    #9fd815 0%,
-    rgba(159, 216, 21, 0) 100%
+    #D41423 0%,
+    rgb(212, 20, 35)100%
   );
   border-image-outset: 0;
   border-image-repeat: stretch;
