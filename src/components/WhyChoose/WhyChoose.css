@@ -13,7 +13,7 @@
 }
 
 .why-choose-box-vector {
-  background: linear-gradient(0deg, #9fd815 0%, #dcff86 100%);
+  background: linear-gradient(0deg, #EF303E 0%, #A00D18 100%);
   padding: 22px 25px;
   border-radius: 0px;
   border: 6px solid var(--white-color);
@@ -38,7 +38,7 @@
 
 .why-choose-box-readMore a {
   background: linear-gradient(180deg, #5b5b5b 0%, #000000 100%);
-  color: var(--theme-color);
+  color: #ffff;
   font-size: 16px;
   font-weight: 500;
   border-radius: 8px;
@@ -77,7 +77,7 @@
 }
 
 .why-choose-image .why-choose-image-box {
-  background: linear-gradient(0deg, #9fd815 0%, #dcff86 100%);
+  background: linear-gradient(0deg, #EF303E 0%, #A00D18 100%);
   padding: 13px 14px;
   border-radius: 10px;
   position: absolute;
