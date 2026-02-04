@@ -21,11 +21,11 @@ const HomeBanner = () => {
           <div className="col-lg-12">
             <div className={`home-banner-content ${showVideo ? "active" : ""}`}>
               <h3>
-                We are <span>hadztech</span>
+                We are <span>Hamkoders.</span>
               </h3>
               <h1>
                 <span>Build</span>
-                {showVideo && (
+                {/* {showVideo && (
                   <motion.div
                     className="home-banner-video"
                     initial={{ width: 0, height: 150, opacity: 0 }}
@@ -42,12 +42,12 @@ const HomeBanner = () => {
                       <source src="https://res.cloudinary.com/dfx2k65zc/video/upload/v1761350940/portfolio_cys55j.mp4" type="video/mp4" />
                     </motion.video>
                   </motion.div>
-                )}
+                )} */}
                 Brands
               </h1>
               <h1>
                 Of
-                {showVideo && (
+                {/* {showVideo && (
                   <motion.div
                     className="home-banner-video1"
                     initial={{ width: 0, height: 150, opacity: 0 }}
@@ -64,7 +64,7 @@ const HomeBanner = () => {
                       <source src="https://res.cloudinary.com/dfx2k65zc/video/upload/v1762813711/Final_compressed_wq9aee.mp4" type="video/mp4" />
                     </motion.video>
                   </motion.div>
-                )}
+                )} */}
                 <span>Excellence</span>
               </h1>
 
