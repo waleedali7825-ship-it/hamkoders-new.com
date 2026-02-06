@@ -40,6 +40,7 @@
   justify-content: center;
   flex-direction: column;
   padding: 0 44px;
+  border-color: #D41423;
 }
 
 .how-it-works-box p {
