@@ -9,6 +9,7 @@ import webDevVector from "../../../../public/images/web-development-vector.webp"
 import appDevVector from "../../../../public/images/app-development-vector.webp";
 import gameDevVector from "../../../../public/images/game-development-vector.webp";
 import BrandVector from "../../../../public/images/branding-vector.png";
+import SoftVector from "../../../../public/images/software-vector.png";
 import btnGreenHover from "../../../../public/images/btn-green-hover.png";
 
 import "swiper/css";
@@ -230,16 +231,16 @@ const OurServices = () => {
                 <SwiperSlide>
                   <div className="our-services-slidesBox our-services-slidesBox4">
                     <Image
-                      src={appDevVector}
+                      src={SoftVector}
                       width={65}
                       height={65}
                       className="vector-image"
-                      alt="app-development-vector"
+                      alt="software-vector"
                     />
 
                     <div className="our-services-slidesBox-content">
                       <h3 className="same-heading"> 
-                        <span>E-commerce</span> Development
+                        <span>Software</span> Development
                       </h3>
                       <p className="para">
                         As a leading ecommerce development company, we develop
