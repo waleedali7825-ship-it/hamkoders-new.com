@@ -199,17 +199,15 @@ const OurServices = () => {
                       width={65}
                       height={65}
                       className="vector-image"
-                      alt="web-development-vector"
+                      alt="branding-vector"
                     />
 
                     <div className="our-services-slidesBox-content">
                       <h3 className="same-heading">
-                        <span>Web App</span> Development
+                        <span>Branding</span>
                       </h3>
                       <p className="para">
-                        Our web app development services focus on building
-                        powerful, user-friendly applications that enhance
-                        productivity and customer satisfaction.
+                        Bring your vision to life with bespoke software built from scratch. From ideation to deployment, we craft secure, tailored solutions that meet your exact business needs.
                       </p>
                     </div>
 
@@ -239,7 +237,7 @@ const OurServices = () => {
                     />
 
                     <div className="our-services-slidesBox-content">
-                      <h3 className="same-heading">
+                      <h3 className="same-heading"> 
                         <span>E-commerce</span> Development
                       </h3>
                       <p className="para">
