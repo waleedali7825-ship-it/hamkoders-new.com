@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import webDevVector from "../../../../public/images/web-development-vector.webp";
 import appDevVector from "../../../../public/images/app-development-vector.webp";
-import DigitalMarVector from "../../../../public/images/digital-vector.webp";
+import DigitalMarVector from "../../../../public/images/digital-vector.png";
 import BrandVector from "../../../../public/images/branding-vector.png";
 import SoftVector from "../../../../public/images/software-vector.png";
 import btnGreenHover from "../../../../public/images/btn-green-hover.png";
