@@ -4,10 +4,10 @@ import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
 import Image from "next/image";
 
-import howWorks1 from "../../../public/images/how-works1.webp";
-import howWorks2 from "../../../public/images/how-works2.webp";
-import howWorks3 from "../../../public/images/how-works3.webp";
-import howWorks4 from "../../../public/images/how-works4.webp";
+import howWorks1 from "../../../public/images/how-works1.png";
+import howWorks2 from "../../../public/images/how-works2.png";
+import howWorks3 from "../../../public/images/how-works3.png";
+import howWorks4 from "../../../public/images/how-works4.png";
 
 const HowItWorks = () => {
   return (
@@ -31,7 +31,7 @@ const HowItWorks = () => {
                 </p>
                 <div className="how-it-works-btn">
                   <Link href={"/"}>
-                    Get Started Now <GoArrowUpRight color="#a0d815" size={20} />
+                    Get Started Now <GoArrowUpRight color="#D41423" size={20} />
                   </Link>
                 </div>
               </div>
