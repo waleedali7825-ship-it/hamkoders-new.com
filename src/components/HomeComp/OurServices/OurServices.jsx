@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import webDevVector from "../../../../public/images/web-development-vector.webp";
 import appDevVector from "../../../../public/images/app-development-vector.webp";
 import gameDevVector from "../../../../public/images/game-development-vector.webp";
+import gameDevVector from "../../../../public/images/branding-vector.png";
 import btnGreenHover from "../../../../public/images/btn-green-hover.png";
 
 import "swiper/css";
@@ -195,7 +196,7 @@ const OurServices = () => {
                 <SwiperSlide>
                   <div className="our-services-slidesBox our-services-slidesBox3">
                     <Image
-                      src={webDevVector}
+                      src={BrandVector}
                       width={65}
                       height={65}
                       className="vector-image"
