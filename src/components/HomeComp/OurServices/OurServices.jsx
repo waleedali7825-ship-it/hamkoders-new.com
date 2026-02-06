@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import webDevVector from "../../../../public/images/web-development-vector.webp";
 import appDevVector from "../../../../public/images/app-development-vector.webp";
-import gameDevVector from "../../../../public/images/game-development-vector.webp";
+import DigitalMarVector from "../../../../public/images/digital-vector.webp";
 import BrandVector from "../../../../public/images/branding-vector.png";
 import SoftVector from "../../../../public/images/software-vector.png";
 import btnGreenHover from "../../../../public/images/btn-green-hover.png";
@@ -161,11 +161,11 @@ const OurServices = () => {
                 <SwiperSlide>
                   <div className="our-services-slidesBox our-services-slidesBox2">
                     <Image
-                      src={gameDevVector}
+                      src={DigitalMarVector}
                       width={65}
                       height={65}
                       className="vector-image"
-                      alt="game-development-vector"
+                      alt="Digital-Mar-vector"
                     />
 
                     <div className="our-services-slidesBox-content">
