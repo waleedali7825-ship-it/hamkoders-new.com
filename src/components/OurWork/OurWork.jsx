@@ -17,7 +17,7 @@ const OurWork = () => {
           <div className="col-lg-12">
             <div className="our-work-content">
               <h2 className="same-heading">
-                Explore Our <span>Work</span>
+                Our <span>Work</span>
               </h2>
               <div className="our-work-right">
                 <p className="para">
@@ -42,14 +42,14 @@ const OurWork = () => {
               >
                 <Image src="/images/new-portfolio/1.webp" width={1170} height={4875} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
                   <span>cryptix</span> - Saas Dashboard
                 </h4>
                 <p className="para">
                   We delivered Cryptix, a SaaS dashboard built for clarity and performance, helping businesses track data easily and make smarter decisions.
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12">
