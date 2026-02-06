@@ -76,7 +76,7 @@ body {
 
 .global-btn-outline:hover {
   background-color: var(--theme-color);
-  color: var(--black-color);
+  color: var(--white-color);
   border-color: transparent;
 }
 
