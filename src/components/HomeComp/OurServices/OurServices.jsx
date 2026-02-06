@@ -24,7 +24,7 @@ const OurServices = () => {
           <div className="col-lg-12">
             <div className="our-services-content">
               <h2 className="same-heading">
-                Core <span>Services</span>
+                Our <span>Services</span>
               </h2>
               <div className="our-services-right">
                 <p className="para">Strategic Services Driving Growth</p>
@@ -111,7 +111,7 @@ const OurServices = () => {
                       </Link>
                       <Link href={"/website-development"} className="bgAnchor">
                         <Image
-                          src={btnGreenHover}
+                          src={btnRedHover}
                           width={130}
                           height={68}
                           alt="anchor-link"
