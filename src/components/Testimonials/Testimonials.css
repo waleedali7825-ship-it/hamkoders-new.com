@@ -160,7 +160,12 @@
   background: linear-gradient( #EF303E 100%, #A00D18 0%);
 }
 
-.client-review-box:hover h3 p {
+.client-review-box:hover h3  {
+  /* color: var(--black-color); */
+  color: white;
+}
+
+.client-review-box:hover p  {
   /* color: var(--black-color); */
   color: white;
 }
