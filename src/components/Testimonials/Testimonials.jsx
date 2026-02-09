@@ -5,10 +5,10 @@ import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 import { BiSolidQuoteAltRight } from "react-icons/bi";
 
-import client1 from "../../../public/images/client1.webp";
-import client2 from "../../../public/images/client2.webp";
-import client3 from "../../../public/images/client3.webp";
-import client4 from "../../../public/images/client4.webp";
+import client1 from "../../../public/images/client1.png";
+import client2 from "../../../public/images/client2.png";
+import client3 from "../../../public/images/client3.png";
+import client4 from "../../../public/images/client4.png";
 
 import review1 from "../../../public/images/review1.webp";
 import review2 from "../../../public/images/review2.webp";

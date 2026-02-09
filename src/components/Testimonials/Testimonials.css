@@ -4,9 +4,7 @@
 }
 
 .testi-numbers-main {
-  background: linear-gradient(0deg, #f8fafc, #f8fafc),
-    linear-gradient(180deg, #f8fafc 9.96%, rgba(248, 250, 252, 0) 100%);
-  border: 2px solid #9fd815;
+  background-image: url("../../../public/images/tes-1.png");
   width: 100%;
   padding: 20px 36px;
   border-radius: 30px;
@@ -65,7 +63,7 @@
 }
 
 .testi-numbers-main-bottom-content {
-  background-color: #a0d8161a;
+  background-color: #FF6874;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -85,10 +83,7 @@
 
 .what-our-clients-says {
   padding: 52px 40px;
-  background: linear-gradient(0deg, #f8fafc, #f8fafc),
-    linear-gradient(180deg, #f8fafc 9.96%, rgba(248, 250, 252, 0) 100%);
-  border-radius: 30px;
-  border: 2px solid var(--theme-color);
+ background-image: url("../../../public/images/tes-2.png");
 }
 
 .what-our-clients-says h2 {
