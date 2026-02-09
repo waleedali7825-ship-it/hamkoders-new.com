@@ -115,11 +115,10 @@
   padding: 64px 46px;
   border-radius: 30px;
   position: relative;
-  background-image: url("../../../public/images/review-box.webp");
+  background-image: url("../../../public/images/review-box.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid #dee5ed;
   height: 355px;
 }
 
