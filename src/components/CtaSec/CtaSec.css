@@ -52,6 +52,11 @@
     justify-content: center;
     margin-top: 20px;
   }
+
+  .cta-sec-btn:hover{
+       color: #A00D18;
+       background-color: white;
+  }
 }
 
 @media(max-width: 440px) {
