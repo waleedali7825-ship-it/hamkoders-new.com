@@ -88,7 +88,7 @@ const OurWork = () => {
               </div> */}
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-12">
+          {/* <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -96,18 +96,18 @@ const OurWork = () => {
               >
                 <Image src={"/images/new-portfolio/4.webp"} width={1170} height={2657} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
                   <span>A1 Luxury</span> – Dealership Website
                 </h4>
                 <p className="para">
                   A sleek, user-friendly dealership website designed to showcase premium vehicles, enhance user experience, and simplify the car-buying process.
                 </p>
-              </div> */}
+              </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-lg-4 col-md-6 col-12">
+          {/* <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -115,16 +115,16 @@ const OurWork = () => {
               >
                 <Image src={"/images/new-portfolio/5.webp"} width={1170} height={4168} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
                   <span>kountryboy</span> - Event planner Website
                 </h4>
                 <p className="para">
                   An engaging, modern website for event planning that streamlines bookings, highlights services, and delivers a smooth user experience.
                 </p>
-              </div> */}
+              </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
@@ -133,17 +133,17 @@ const OurWork = () => {
               >
                 <Image src={"/images/new-portfolio/6.webp"} width={1170} height={5601} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
                   <span>Livelee</span> - Short Video app
                 </h4>
                 <p className="para">
                   We created Livelee, a short video app where creators share content, connect with audiences, and inspire through interactive, engaging features.
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-12">
+          {/* <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -151,17 +151,17 @@ const OurWork = () => {
               >
                 <Image src={"/images/new-portfolio/7.webp"} width={1170} height={3433} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
                   <span>every fit</span> - fitness app
                 </h4>
                 <p className="para">
                   A feature-rich fitness app built to track workouts, set goals, and motivate users toward healthier, active lifestyles.
                 </p>
-              </div> */}
+              </div>
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-12">
+          </div> */}
+          {/* <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -169,17 +169,17 @@ const OurWork = () => {
               >
                 <Image src={"/images/new-portfolio/8.webp"} width={1170} height={3153} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
                   <span>superior streaming-</span>E-commerce Website
                 </h4>
                 <p className="para">
                   An advanced e-commerce platform designed for seamless shopping, optimized performance, and an engaging product browsing experience.
                 </p>
-              </div> */}
+              </div>
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-12">
+          </div> */}
+          {/* <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -187,16 +187,16 @@ const OurWork = () => {
               >
                 <Image src={"/images/new-portfolio/9.webp"} width={1170} height={5188} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
                   <span>superior streaming-</span>E-commerce Website
                 </h4>
                 <p className="para">
                   An advanced e-commerce platform designed for seamless shopping, optimized performance, and an engaging product browsing experience.
                 </p>
-              </div> */}
+              </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
