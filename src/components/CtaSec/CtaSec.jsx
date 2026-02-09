@@ -11,7 +11,7 @@ const CtaSec = () => {
           <div className="col-lg-12">
             <div className="cta-sec-content">
               <h2 className="same-heading">
-                REACH BUSINESS GOALS <span>RAPIDLY WITH US</span>
+                Ready to work with us ?
               </h2>
 
               <div className="cta-sec-btn d-flex">

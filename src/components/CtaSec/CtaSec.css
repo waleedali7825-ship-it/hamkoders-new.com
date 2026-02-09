@@ -5,16 +5,17 @@
 .cta-sec-content h2 {
   margin-bottom: 0;
   font-size: 42px;
+  color: white;
 }
 
-.cta-sec-content h2 span {
+/* .cta-sec-content h2 span {
   background: linear-gradient(0deg, #9fd815 0%, #dcff86 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 .cta-sec-content {
-  background: linear-gradient(208.18deg, #818181 -13.69%, #000000 77.78%);
+  background: linear-gradient(0%, #EF303E 100%, 100% #A00D18 100%);
   padding: 60px 60px;
   border-radius: 30px;
   display: flex;
