@@ -34,7 +34,7 @@ const OurWork = () => {
         </div>
 
         <div className="row" ref={fancyboxRef}>
-          <div className="col-lg-4 col-md-6 col-12">
+          <div className="col-lg-2 col-md-4 col-10">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -51,7 +51,7 @@ const OurWork = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-12">
+          <div className="col-lg-2 col-md-4 col-10">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -59,18 +59,18 @@ const OurWork = () => {
               >
                 <Image src={"/images/new-portfolio/2.webp"} width={1170} height={4936} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
                   <span>Biocoin</span> - Crypto Exchange App
                 </h4>
                 <p className="para">
                   We developed Biocoin, a secure crypto exchange app designed for smooth trading, real-time updates, and trusted digital asset management.
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-12">
+          <div className="col-lg-2 col-md-4 col-10">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -78,14 +78,14 @@ const OurWork = () => {
               >
                 <Image src={"/images/new-portfolio/3.webp"} width={1170} height={8166} alt="our-work-image" />
               </Link>
-              {/* <div className="our-work-box-content">
+              <div className="our-work-box-content">
                 <h4>
                   <span>sEO Tool</span> - Saas Website
                 </h4>
                 <p className="para">
                   We built SEO Tool, a SaaS website that improves rankings, tracks performance, and supports brands with simple, powerful optimization features.
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
           {/* <div className="col-lg-4 col-md-6 col-12">
@@ -125,7 +125,7 @@ const OurWork = () => {
               </div>
             </div>
           </div> */}
-          <div className="col-lg-4 col-md-6 col-12">
+          <div className="col-lg-2 col-md-4 col-10">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
