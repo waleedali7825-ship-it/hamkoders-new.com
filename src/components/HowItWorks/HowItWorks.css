@@ -29,7 +29,7 @@
 .how-it-works-box {
   width: 100%;
   height: 274px;
-  /* background-image: url("../../../public/images/how-it-works.webp"); */
+  background-image: url("../../../public/images/how-it-works.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
