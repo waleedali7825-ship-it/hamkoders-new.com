@@ -55,9 +55,9 @@ const OurWork = () => {
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
-                href="/images/new-portfolio/2.webp"
+                href="/images/new-portfolio/2.png"
               >
-                <Image src={"/images/new-portfolio/2.webp"} width={1170} height={4936} alt="our-work-image" />
+                <Image src={"/images/new-portfolio/2.png"} width={1170} height={4936} alt="our-work-image" />
               </Link>
               <div className="our-work-box-content">
                 <h4>
@@ -74,9 +74,9 @@ const OurWork = () => {
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
-                href="/images/new-portfolio/3.webp"
+                href="/images/new-portfolio/4.png"
               >
-                <Image src={"/images/new-portfolio/3.webp"} width={1170} height={8166} alt="our-work-image" />
+                <Image src={"/images/new-portfolio/4.png"} width={1170} height={8166} alt="our-work-image" />
               </Link>
               <div className="our-work-box-content">
                 <h4>
@@ -129,9 +129,9 @@ const OurWork = () => {
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
-                href="/images/new-portfolio/6.webp"
+                href="/images/new-portfolio/3.png"
               >
-                <Image src={"/images/new-portfolio/6.webp"} width={1170} height={5601} alt="our-work-image" />
+                <Image src={"/images/new-portfolio/3.png"} width={1170} height={5601} alt="our-work-image" />
               </Link>
               <div className="our-work-box-content">
                 <h4>
