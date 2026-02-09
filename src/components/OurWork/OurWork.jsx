@@ -2,7 +2,7 @@ import React from "react";
 import "./OurWork.css";
 import Link from "next/link";
 import Image from "next/image";
-import "@fancyapps/ui/dist/fancybox/fancybox.css";
+// import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
 import useFancybox from "../FancyBoxComp";
 
@@ -47,7 +47,7 @@ const OurWork = () => {
                   <span>cryptix</span> - Saas Dashboard
                 </h4>
                 <p className="para">
-                  Integer rutrum at magna nec mattis. Duis eleifend urna felis. In auctor nec enim id posuere. Class aptent taciti sociosqu ad litora                </p>
+                   Integer rutrum at magna nec mattis. Duis eleifend urna felis. In auctor nec enim id posuere. Class aptent taciti sociosqu ad litora                </p>
               </div>
             </div>
           </div>
