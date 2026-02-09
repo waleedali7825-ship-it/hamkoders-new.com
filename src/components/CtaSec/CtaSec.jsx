@@ -15,7 +15,7 @@ const CtaSec = () => {
               </h2>
 
               <div className="cta-sec-btn d-flex">
-                <Link href={"#"} onClick={(e) => e.preventDefault()} className="global-btn-outline" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <Link href={"#"} onClick={(e) => e.preventDefault()} data-bs-toggle="modal" data-bs-target="#exampleModal">
                   Get Started
                 </Link>
               </div>
