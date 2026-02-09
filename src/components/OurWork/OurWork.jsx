@@ -2,7 +2,7 @@ import React from "react";
 import "./OurWork.css";
 import Link from "next/link";
 import Image from "next/image";
-import "@fancyapps/ui/dist/fancybox/fancybox.css";
+// import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
 import useFancybox from "../FancyBoxComp";
 
