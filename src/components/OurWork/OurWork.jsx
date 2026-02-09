@@ -38,17 +38,16 @@ const OurWork = () => {
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
-                href="/images/new-portfolio/1.webp"
+                href="/images/new-portfolio/1.png"
               >
-                <Image src="/images/new-portfolio/1.webp" width={1170} height={4875} alt="our-work-image" />
+                <Image src="/images/new-portfolio/1.png" width={1170} height={4875} alt="our-work-image" />
               </Link>
               <div className="our-work-box-content">
                 <h4>
                   <span>cryptix</span> - Saas Dashboard
                 </h4>
                 <p className="para">
-                  We delivered Cryptix, a SaaS dashboard built for clarity and performance, helping businesses track data easily and make smarter decisions.
-                </p>
+                  Integer rutrum at magna nec mattis. Duis eleifend urna felis. In auctor nec enim id posuere. Class aptent taciti sociosqu ad litora                </p>
               </div>
             </div>
           </div>
