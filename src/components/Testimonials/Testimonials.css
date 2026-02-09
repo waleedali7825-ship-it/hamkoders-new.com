@@ -113,7 +113,6 @@
 .client-review-box {
   background: #f8fafc;
   padding: 64px 46px;
-  border-radius: 30px;
   position: relative;
   background-image: url("../../../public/images/review-box.png");
   background-position: center;
