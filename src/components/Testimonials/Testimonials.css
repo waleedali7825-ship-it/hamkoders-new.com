@@ -157,7 +157,7 @@
 
 .client-review-box:hover {
   /* background: var(--theme-gradient); */
-  background: linear-gradient( #EF303E 0%, #A00D18 100%);
+  background: linear-gradient( #EF303E 0%, #A00D18 50%);
 }
 
 .client-review-box:hover h3 {
