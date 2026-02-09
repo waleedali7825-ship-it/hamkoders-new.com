@@ -138,7 +138,7 @@
 }
 } */
 
-/* ================= OUR WORK HEADER ================= */
+/* ================= HEADER ================= */
 
 .our-work-content {
   display: flex;
@@ -173,7 +173,7 @@
   display: flex;
 }
 
-/* ================= GRID LAYOUT (MAIN CHANGE) ================= */
+/* ================= GRID FIX (IMPORTANT) ================= */
 
 .our-work-grid {
   display: grid;
@@ -181,11 +181,18 @@
   gap: 40px;
 }
 
+/* 🔥 BOOTSTRAP COLUMN OVERRIDE (MAIN FIX) */
+.our-work-grid > [class*="col-"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+  padding: 0 !important;
+}
+
 /* ================= WORK BOX ================= */
 
 .our-work-box {
   width: 100%;
-  margin-bottom: 0; /* IMPORTANT: grid handles spacing */
 }
 
 .our-work-box img {
@@ -309,3 +316,4 @@
     font-size: 27px;
   }
 }
+
