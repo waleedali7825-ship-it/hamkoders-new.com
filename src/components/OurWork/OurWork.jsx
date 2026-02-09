@@ -34,7 +34,7 @@ const OurWork = () => {
         </div>
 
         <div className="row" ref={fancyboxRef}>
-          <div className="col-lg-2 col-md-4 col-10">
+          <div className="col-lg-4 col-md-6 col-10">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -51,7 +51,7 @@ const OurWork = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-2 col-md-4 col-10">
+          <div className="col-lg-4 col-md-6 col-10">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -70,7 +70,7 @@ const OurWork = () => {
             </div>
           </div>
 
-          <div className="col-lg-2 col-md-4 col-10">
+          <div className="col-lg-4 col-md-6 col-10">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
@@ -125,7 +125,7 @@ const OurWork = () => {
               </div>
             </div>
           </div> */}
-          <div className="col-lg-2 col-md-4 col-10">
+          <div className="col-lg-4 col-md-6 col-10">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
