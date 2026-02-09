@@ -27,12 +27,12 @@
   text-align: end;
 }
 
-.our-work-box {
+/* .our-work-box {
   width: 100%;
   margin-bottom: 30px;
   border: 2px solid var(--theme-color);
   border-radius: 10px;
-}
+} */
 
 .our-work-box img {
   width: 100%;
