@@ -84,6 +84,7 @@
 .what-our-clients-says {
   padding: 45px 40px;
  background-image: url("../../../public/images/tes-2.png");
+ border: 1px solid var(--theme-color);
 }
 
 .what-our-clients-says h2 {
