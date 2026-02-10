@@ -4,8 +4,8 @@ import "./Footer.css";
 import Link from "next/link";
 import Image from "next/image";
 
-import usFlag from "../../../public/images/us-flag.webp";
-import FooterLOGO from "../../../public/images/footer-logo.webp";
+import usFlag from "../../../public/images/pak-flag.png";
+import FooterLOGO from "../../../public/images/footer-logo.png";
 import { FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 
@@ -127,13 +127,13 @@ const currentYear = currentDate.getFullYear();
                           <Link href={"/app-development"}>App Development</Link>
                         </li>
                         <li>
-                          <Link href={"/game-development"}>
-                            Game Development
+                          <Link href={"/branding"}>
+                           Branding
                           </Link>
                         </li>
                         <li>
-                          <Link href={"/store-development"}>
-                            Store Development
+                          <Link href={"/digital-marketing"}>
+                            Digital Marketing
                           </Link>
                         </li>
                       </ul>
@@ -195,19 +195,19 @@ const currentYear = currentDate.getFullYear();
                               alt="us-flag"
                               className="me-2"
                             />{" "}
-                            (832) 789-0702
+                            (+92) 302 280 0188
                           </Link>
                         </li>
                         <li>
-                          <Link href={"mailto:info@hadztech.com"}>
-                            info@hadztech.com
+                          <Link href={"mailto:info@hamkoders.com"}>
+                            info@hamkoders.com
                           </Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link href={"https://maps.app.goo.gl/279DTuhCJFtJ5rSFA"} target="_blank">
                             12828 Willow Centre Dr Ste D #81 Houston, TX 77066
                           </Link>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
