@@ -160,10 +160,6 @@
   background: linear-gradient( #EF303E 100%, #A00D18 0%);
 }
 
-.review-star:hover{
-  color: white;
-}
-
 .client-review-box:hover h3 {
   /* color: var(--black-color); */
   color: white;
@@ -174,10 +170,6 @@
   color: white;
 }
 
-.client-review-box:hover span {
-               color: white;
-}
-
 .client-review-box:hover p {
   /* color: var(--black-color); */
   color: white;
@@ -185,7 +177,6 @@
 
 .client-review-box:hover span svg {
   fill: #e4476b;
-  border-radius: 10px;
 
 }
 
@@ -228,11 +219,11 @@
 }
 
 .client-review-box:hover span svg {
-  fill: #000;
+  fill: white;
 }
 
 .client-review-box:hover .review-star svg {
-  fill: #000;
+  fill:white;
 }
 
 
