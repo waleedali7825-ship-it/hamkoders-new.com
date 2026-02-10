@@ -141,13 +141,14 @@
 }
 
 .home-banner-links a:nth-child(1):hover {
-  color: var(--theme-color);
+  color: white;
   background-color: var(--black-color);
 }
 
 .home-banner-links a:nth-child(2):hover {
   background-color: var(--theme-color);
   border-color: transparent;
+  color: white;
 }
 
 .home-banner-span {
