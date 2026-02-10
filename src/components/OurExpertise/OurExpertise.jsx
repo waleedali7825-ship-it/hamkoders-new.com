@@ -17,8 +17,8 @@ const OurExpertise = () => {
   const expertiseData = [
     { title: "Website Development", image: expertise1, alt: "expertise1" },
     { title: "App Development", image: expertise2, alt: "expertise2" },
-    { title: "Game Development", image: expertise3, alt: "expertise3" },
-    { title: "Store Development", image: expertise4, alt: "expertise4" },
+    { title: "Branding", image: expertise3, alt: "expertise3" },
+    { title: "Digital Mrketing", image: expertise4, alt: "expertise4" },
     { title: "Software Development", image: expertise5, alt: "expertise5" },
   ];
 
