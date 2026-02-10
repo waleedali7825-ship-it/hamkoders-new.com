@@ -1,6 +1,7 @@
 .footer {
   margin: 100px 0px 32px;
   background-image: url("../../../public/images/footer.png");
+  background-repeat: no-repeat;
   
 }
 
