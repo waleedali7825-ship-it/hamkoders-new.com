@@ -179,6 +179,9 @@
   fill: #e4476b;
 
 }
+.client-review-box:hover span{
+  color: white;
+}
 
 .client-review-main-box {
   position: relative;
