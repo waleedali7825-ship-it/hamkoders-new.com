@@ -174,7 +174,7 @@ const Testimonials = () => {
                 <SwiperSlide>
                   <div className="client-review-box">
                     <span>
-                      <BiSolidQuoteAltRight color="#262626" size={30} />
+                      <BiSolidQuoteAltRight color="#ffffff" size={30} />
                     </span>
                     <div className="client-review-box-content">
                       <Image
