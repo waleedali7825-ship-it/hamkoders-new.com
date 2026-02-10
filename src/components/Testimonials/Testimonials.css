@@ -158,6 +158,7 @@
 .client-review-box:hover {
   /* background: var(--theme-gradient); */
   background: linear-gradient( #EF303E 100%, #A00D18 0%);
+  border-radius: 10px;
 }
 
 .client-review-box:hover h3 {
@@ -179,7 +180,7 @@
   fill: #e4476b;
 
 }
-.client-review-box:hover span{
+.client-review-box:hover span {
   color: white;
 }
 
