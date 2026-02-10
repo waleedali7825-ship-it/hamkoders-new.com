@@ -53,7 +53,7 @@
 
 .our-work-box-content p {
   color: var(--black-color);
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .our-work-box-content h4 {
@@ -117,7 +117,6 @@
 
 .our-work-box-content p {
     font-size: 14px;
-    margin-bottom: 30px;
 }
 
 
