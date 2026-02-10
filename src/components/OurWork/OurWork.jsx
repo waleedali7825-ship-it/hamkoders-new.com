@@ -126,7 +126,7 @@ const OurWork = () => {
             </div>
           </div>
           
-          <div className="col-lg-4 col-md-6 col-12">
+          <div className="col-lg-4 col-md-6 col-12 margin-bottom 50px">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
