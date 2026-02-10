@@ -1,7 +1,6 @@
 .footer {
   margin: 100px 0px 32px;
-  background-image: url("../../../public/images/footer.png");
-  background-repeat: no-repeat;
+  
   
 }
 
@@ -13,6 +12,8 @@
       rgba(160, 216, 22, 0.09) 100%); */
   padding: 40px 66px;
   border-radius: 40px;
+  background-image: url("../../../public/images/footer2.png");
+  
   
   
 }
