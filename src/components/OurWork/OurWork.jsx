@@ -44,10 +44,10 @@ const OurWork = () => {
               </Link>
               <div className="our-work-box-content">
                 <h4>
-                  <span>cryptix</span> - Saas Dashboard
+                  <span>Edukidz</span> - school web
                 </h4>
                 <p className="para">
-                   Integer rutrum at magna nec mattis. Duis eleifend urna felis. In auctor nec enim id posuere. Class aptent taciti sociosqu ad litora                </p>
+                  A modern school website with interactive learning, admissions info, and easy communication for students and parents.                </p>
               </div>
             </div>
           </div>
@@ -61,10 +61,10 @@ const OurWork = () => {
               </Link>
               <div className="our-work-box-content">
                 <h4>
-                  <span>Biocoin</span> - Crypto Exchange App
+                  <span>Dreamix</span> - Property app
                 </h4>
                 <p className="para">
-                  We developed Biocoin, a secure crypto exchange app designed for smooth trading, real-time updates, and trusted digital asset management.
+                 A smart real-estate app for property search, virtual tours, and smooth home-buying experiences.
                 </p>
               </div>
             </div>
@@ -76,55 +76,55 @@ const OurWork = () => {
                 data-fancybox="gallery"
                 href="/images/new-portfolio/4.png"
               >
-                <Image src={"/images/new-portfolio/4.png"} width={1170} height={8166} alt="our-work-image" />
+                <Image src={"/images/new-portfolio/3.png"} width={1170} height={8166} alt="our-work-image" />
               </Link>
               <div className="our-work-box-content">
                 <h4>
-                  <span>sEO Tool</span> - Saas Website
+                  <span>caelora</span> - jewelry web
                 </h4>
                 <p className="para">
-                  We built SEO Tool, a SaaS website that improves rankings, tracks performance, and supports brands with simple, powerful optimization features.
+                  An elegant jewelry website showcasing premium collections with a smooth and luxury online shopping experience.
                 </p>
               </div>
             </div>
           </div>
-          {/* <div className="col-lg-4 col-md-6 col-12">
+          <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
-                href="/images/new-portfolio/4.webp"
+                href="/images/new-portfolio/4.png"
               >
-                <Image src={"/images/new-portfolio/4.webp"} width={1170} height={2657} alt="our-work-image" />
+                <Image src={"/images/new-portfolio/4.png"} width={1170} height={2657} alt="our-work-image" />
               </Link>
               <div className="our-work-box-content">
                 <h4>
-                  <span>A1 Luxury</span> – Dealership Website
+                  <span>wavix</span> - bank app
                 </h4>
                 <p className="para">
-                  A sleek, user-friendly dealership website designed to showcase premium vehicles, enhance user experience, and simplify the car-buying process.
+                  A secure banking app for seamless transactions, account management, and real-time financial tracking.
                 </p>
               </div>
             </div>
-          </div> */}
+          </div>
 
-          {/* <div className="col-lg-4 col-md-6 col-12">
+          <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
-                href="/images/new-portfolio/5.webp"
+                href="/images/new-portfolio/5.png"
               >
-                <Image src={"/images/new-portfolio/5.webp"} width={1170} height={4168} alt="our-work-image" />
+                <Image src={"/images/new-portfolio/5.png"} width={1170} height={4168} alt="our-work-image" />
               </Link>
               <div className="our-work-box-content">
                 <h4>
-                  <span>kountryboy</span> - Event planner Website
+                  <span>faura</span> - portal
                 </h4>
                 <p className="para">
-                  An engaging, modern website for event planning that streamlines bookings, highlights services, and delivers a smooth user experience.
+                  A dynamic portal built for productivity, content management, and smooth digital collaboration.
                 </p>
               </div>
             </div>
-          </div> */}
+          </div>
           
           <div className="col-lg-4 col-md-6 col-12">
             <div className="our-work-box">
@@ -136,10 +136,10 @@ const OurWork = () => {
               </Link>
               <div className="our-work-box-content">
                 <h4>
-                  <span>Livelee</span> - Short Video app
+                  <span>basic medic</span> - assistant
                 </h4>
                 <p className="para">
-                  We created Livelee, a short video app where creators share content, connect with audiences, and inspire through interactive, engaging features.
+                  A healthcare assistant app for appointment tracking, patient support, and easy medical access.
                 </p>
               </div>
             </div>
