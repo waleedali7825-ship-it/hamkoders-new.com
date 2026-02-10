@@ -119,6 +119,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 355px;
+  border-radius: 20px;
 }
 
 .client-review-box-content {
