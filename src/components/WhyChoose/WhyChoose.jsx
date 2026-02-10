@@ -4,7 +4,7 @@ import Image from "next/image";
 import dataDriven from "../../../public/images/data-driven.png";
 import creativeVector from "../../../public/images/creative-vector.png";
 import transparentVector from "../../../public/images/transparent-vector.png";
-import whyChooseUsRight from "../../../public/images/why-choose-us-right.webp";
+import whyChooseUsRight from "../../../public/images/why-choose-us-right.png";
 import Link from "next/link";
 import { BiSolidRightArrow } from "react-icons/bi";
 
