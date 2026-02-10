@@ -85,7 +85,7 @@
 
 @media(max-width: 1366px) {
   .our-work-box {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .our-work-box-content p {
@@ -96,7 +96,7 @@
 @media(max-width: 768px) {
 .our-work-content {
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .our-work-box {
