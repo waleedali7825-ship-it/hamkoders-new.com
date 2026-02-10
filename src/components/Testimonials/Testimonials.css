@@ -171,11 +171,14 @@
 }
 
 .client-review-box:hover p {
-  color: var(--black-color);
+  /* color: var(--black-color); */
+  color: white;
 }
 
 .client-review-box:hover span svg {
   fill: #e4476b;
+  border-radius: 10px;
+
 }
 
 .client-review-main-box {
