@@ -228,28 +228,28 @@ const currentYear = currentDate.getFullYear();
                       <ul>
                         <li>
                           <Link
-                            href={"https://www.facebook.com/hadztechofficial"}
+                            href={"https://www.facebook.com/Hamkoders/"}
                             target="_blank"
                           >
-                            <FaFacebook size={25} color="#a0d815" /> Facebook
+                            <FaFacebook size={25} color="#D41423" /> Facebook
                           </Link>
                         </li>
                         <li>
                           <Link
-                            href={"https://www.instagram.com/hadztech/"}
+                            href={"https://www.instagram.com/hamkoders/"}
                             target="_blank"
                           >
-                            <FaInstagram size={25} color="#a0d815" /> Instagram
+                            <FaInstagram size={25} color="#D41423" /> Instagram
                           </Link>
                         </li>
                         <li>
                           <Link
                             href={
-                              "https://www.linkedin.com/company/hadztech/about/"
+                              "https://www.linkedin.com/company/hamkoders/"
                             }
                             target="_blank"
                           >
-                            <FaLinkedinIn size={25} color="#a0d815" /> LinkedIn
+                            <FaLinkedinIn size={25} color="#D41423" /> LinkedIn
                           </Link>
                         </li>
                       </ul>
