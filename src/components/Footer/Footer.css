@@ -1,5 +1,10 @@
 .footer {
   margin: 100px 0px 32px;
+  border: 2px solid linear-gradient(
+      rgba(161, 216, 22, 0.577) 0%,
+      rgba(161, 216, 22, 0.74) 25.79%,
+      rgba(160, 216, 22, 0) 76.25%,
+      rgba(160, 216, 22, 0.09) 100%);
 }
 
 .footer .footer-main-content {
@@ -10,11 +15,7 @@
       rgba(160, 216, 22, 0.09) 100%);
   padding: 40px 66px;
   border-radius: 40px;
-  border: 2px solid linear-gradient(
-      rgba(161, 216, 22, 0.577) 0%,
-      rgba(161, 216, 22, 0.74) 25.79%,
-      rgba(160, 216, 22, 0) 76.25%,
-      rgba(160, 216, 22, 0.09) 100%);
+  
 }
 
 .footer-navigation {
