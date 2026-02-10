@@ -57,7 +57,7 @@
 }
 
 .our-work-box-content h4 {
-  font-size: 40px;
+  font-size: 37px;
   font-weight: 600;
   text-transform: uppercase;
   color: var(--black-color);
@@ -73,13 +73,13 @@
 
 @media(max-width: 1536px) {
   .our-work-box-content h4 {
-    font-size: 36px;
+    font-size: 32px;
   }
 }
 
 @media(max-width: 1440px) {
   .our-work-box-content h4 {
-    font-size: 32px;
+    font-size: 30px;
   }
 }
 
