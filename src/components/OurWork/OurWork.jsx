@@ -92,9 +92,9 @@ const OurWork = () => {
             <div className="our-work-box">
               <Link
                 data-fancybox="gallery"
-                href="/images/new-portfolio/4s.png"
+                href="/images/new-portfolio/4.png"
               >
-                <Image src={"/images/new-portfolio/4s.png"} width={1170} height={2657} alt="our-work-image" />
+                <Image src={"/images/new-portfolio/4.png"} width={1170} height={2657} alt="our-work-image" />
               </Link>
               <div className="our-work-box-content">
                 <h4>
