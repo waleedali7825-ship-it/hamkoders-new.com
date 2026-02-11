@@ -9,7 +9,7 @@ const OurValues = () => {
           <div className="col-lg-12">
             <div className="our-values-content">
               <h2 className="same-heading">
-                What We<span> Offer?</span>
+                CORE <span> VALUES</span>
               </h2>
             </div>
           </div>
@@ -20,9 +20,9 @@ const OurValues = () => {
             <div className="our-values-1">
               <h2>01</h2>
               <div className="our-values-1-content">
-                <h4>24/7 Support:</h4>
+                <h4>QUALITY:</h4>
                 <p className="para">
-                  Continuous assistance to keep digital presence running perfectly.
+                  Every project is delivered with precision and creativity.
                 </p>
               </div>
             </div>
@@ -30,9 +30,9 @@ const OurValues = () => {
           <div className="col-lg-12">
             <div className="our-values-2">
               <div className="our-values-2-content">
-                <h4>Client Focused Approach:</h4>
+                <h4>TRUST:</h4>
                 <p className="para">
-                  We deliver impactful solutions that truly align with business.
+                 We believe in transparency and building lasting partnerships.
                 </p>
               </div>
               <h2>02</h2>
@@ -42,9 +42,9 @@ const OurValues = () => {
             <div className="our-values-1">
               <h2>03</h2>
               <div className="our-values-1-content">
-                <h4>Excellence Quality:</h4>
+                <h4>TECHNOLOGY:</h4>
                 <p className="para">
-                  Quality and high standards are everything we serve to industry.
+                  Using technology to create smarter digital solutions. 
                 </p>
               </div>
             </div>
@@ -52,8 +52,8 @@ const OurValues = () => {
           <div className="col-lg-12">
             <div className="our-values-2">
               <div className="our-values-2-content">
-                <h4>Growth-Driven Solutions:</h4>
-                <p className="para">Our goal is to help businesses grow and succeed in the digital industry.</p>
+                <h4>COLLABORATION:</h4>
+                <p className="para">Your growth drives our success.</p>
               </div>
               <h2>04</h2>
             </div>
