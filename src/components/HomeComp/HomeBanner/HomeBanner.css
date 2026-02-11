@@ -54,7 +54,7 @@
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 600;
-  color: var(--theme-color);
+  color: white;
   background: var(--black-color);
   padding: 8px;
   left: -75px;
