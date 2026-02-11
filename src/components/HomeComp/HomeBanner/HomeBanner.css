@@ -12,7 +12,7 @@
   left: 0;
   width: 1100px;
   height: 600px;
-  background-image: url("../../../../public/images/home-banner-before.webp");
+  background-image: url("../../../../public/images/home-banner-before.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@
   right: 0;
   width: 684px;
   height: 675px;
-  background-image: url("../../../../public/images/home-banner-after.webp");
+  background-image: url("../../../../public/images/home-banner-after.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
