@@ -24,10 +24,7 @@ const HowItWorks = () => {
               </div>
               <div className="how-it-works-content-right">
                 <p className="para">
-                  Our streamlined process ensures your digital growth is
-                  seamless and effective. ipsum dolor sit amet, consectetur
-                  adipiscing elit. In ex ligula, varius at rutrum et, finibus
-                  sed felis.
+                  Our proven process supports your digital growth with smooth execution and smart planning. We deliver effective solutions that boost performance, engagement, and long-term online visibility.
                 </p>
                 <div className="how-it-works-btn">
                   <Link href={"/"}>
@@ -48,7 +45,7 @@ const HowItWorks = () => {
                 Discovery & <br /> Consult
               </h4>
               <p className="para">
-                Understanding your brand, goals, and challenges to craft a tailored digital strategy.
+                We analyze your business needs, audience insights, and market trends to create a strong base for successful digital growth.
               </p>
             </div>
           </div>
@@ -60,7 +57,7 @@ const HowItWorks = () => {
                 Strategy & <br /> Planning
               </h4>
               <p className="para">
-                Creating a clear roadmap with smart goals, timelines, and performance - focused direction.
+                Our experts design effective digital strategies and structured planning to improve performance and build long-term brand success globally.
               </p>
             </div>
           </div>
@@ -72,7 +69,7 @@ const HowItWorks = () => {
                 Execution & <br /> Optimize
               </h4>
               <p className="para">
-                Launching with precision, testing performance, and refining for maximum impact and growth.
+                We implement advanced solutions and continuously optimize campaigns to enhance performance, user experience, and overall business results.
               </p>
             </div>
           </div>
@@ -84,7 +81,7 @@ const HowItWorks = () => {
                 Result & <br /> Growth
               </h4>
               <p className="para">
-                Tracking real results, scaling success, and building long-term growth for your brand.
+                We focus on measurable results that strengthen your brand presence, increase conversions, and drive consistent digital business growth.
               </p>
             </div>
           </div>

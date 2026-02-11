@@ -101,9 +101,7 @@ const OurServices = () => {
                         <span>Website</span> Development
                       </h3>
                       <p className="para">
-                        We create responsive and scalable websites that deliver
-                        seamless user experiences, helping businesses achieve
-                        their goals.
+                        Scale your business through high-quality web development, APIs, and Laravel solutions. We build secure, flexible, custom platforms engineered to manage complexity efficiently and support long-term growth.
                       </p>
                     </div>
 
@@ -137,9 +135,7 @@ const OurServices = () => {
                         <span>App</span> Development
                       </h3>
                       <p className="para">
-                        As a trusted app development agency, we design and build
-                        intuitive mobile and web applications that drive user
-                        engagement and growth.
+                        Enhance your digital presence using custom WordPress development, plugins, and SEO-ready websites. Our skilled team delivers fast, reliable, and scalable experiences tailored to brands.
                       </p>
                     </div>
 
@@ -173,9 +169,7 @@ const OurServices = () => {
                         <span>Digital</span> Marketing
                       </h3>
                       <p className="para">
-                        We specialize in digital marketing for startups,
-                        delivering tailored strategies that increase brand
-                        visibility and accelerate customer acquisition.
+                        Transform your ideas into powerful software solutions built with modern technologies. We develop secure, scalable, custom systems designed to improve efficiency and support long-term business growth.
                       </p>
                     </div>
 
@@ -209,7 +203,7 @@ const OurServices = () => {
                         <span>Branding</span>
                       </h3>
                       <p className="para">
-                        Bring your vision to life with bespoke software built from scratch. From ideation to deployment, we craft secure, tailored solutions that meet your exact business needs.
+                        Build a powerful brand identity that connects with your audience. From strategy to visuals, we create impactful branding solutions aligned with your business goals worldwide.
                       </p>
                     </div>
 
@@ -243,9 +237,7 @@ const OurServices = () => {
                         <span>Software</span> Development
                       </h3>
                       <p className="para">
-                        As a leading ecommerce development company, we develop
-                        secure and scalable online stores designed to maximize
-                        sales and improve user journeys.
+                        Transform your ideas into powerful software solutions built with modern technologies. We develop secure, scalable, custom systems designed to improve efficiency and support long-term business growth.
                       </p>
                     </div>
 

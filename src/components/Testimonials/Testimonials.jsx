@@ -59,11 +59,11 @@ const Testimonials = () => {
               <div className="testi-numbers-main-center">
                 <div className="testi-numbers-main-center-content testi-numbers-main-center-contentBefore">
                   <h3>90%</h3>
-                  <p className="para">Improved Project</p>
+                  <p className="para">Successful Project</p>
                 </div>
                 <div className="testi-numbers-main-center-content">
                   <h3>49%</h3>
-                  <p className="para">New Project</p>
+                  <p className="para">New Clients</p>
                 </div>
               </div>
 
@@ -81,12 +81,11 @@ const Testimonials = () => {
             <div className="what-our-clients-says">
               <h3>What Our Client Says</h3>
               <h2>
-                Hear from Our <span>Satisfied Clients</span>, Real Success
+                Hear from Our <span>HAPPY Clients</span>, Real Success
                 Stories
               </h2>
               <p className="para">
-                Discover how businesses like yours achieved outstanding growth
-                with Hadztech expert digital marketing solutions.
+                See how businesses like yours achieved strong growth through Hamkoders expert digital marketing and development solutions.
               </p>
             </div>
           </div>
@@ -165,9 +164,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="para">
-                      Hadztech turned our business idea into a smooth,
-                      professional website. Clear communication, on-time
-                      delivery, and excellent results.
+                      Hamkoders has completely improved my business profile. I connected with great clients and discovered new opportunities. Highly recommended for digital growth.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -195,9 +192,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="para">
-                      Their web development team built a fast, professional site
-                      that improved our performance and engagement. Skilled,
-                      responsive, and reliable experts.
+                      The creative design and smart features from Hamkoders helped my brand grow faster online. It has become my trusted digital partner.
                     </p>
                   </div>
                 </SwiperSlide>
@@ -225,9 +220,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="para">
-                      Hadztech’s app development team, led byBiz Stone, built a
-                      smooth, high-performing app and delivered excellent
-                      results.
+                     I really like how Hamkoders helped me connect with more customers. Their solutions are simple, user-friendly, and highly effective for business.
                     </p>
                   </div>
                 </SwiperSlide>
