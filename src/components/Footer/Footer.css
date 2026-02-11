@@ -1,11 +1,11 @@
 .footer {
   margin: 100px 0px 20px;
-  border: 2px solid;
-  border-color: linear-gradient(
+  /* border: 2px solid;
+  border-color: linear-gradient(180deg,
     rgba(212, 20, 35,  0.15) 0%,
     rgba(212, 20, 35, 0) 26%,
     rgba( 212, 20, 35, 0) 76%,
-    rgba(212, 20, 35, 0.15) 100%,);
+    rgba(212, 20, 35, 0.15) 100%,); */
   
   
 }
@@ -18,7 +18,7 @@
       rgba(212, 20, 35, 0.11) 100%);
   padding: 40px 66px;
   border-radius: 40px;
-  
+  background-image: url("../../../public/images/footer2.png");
   
   
   
