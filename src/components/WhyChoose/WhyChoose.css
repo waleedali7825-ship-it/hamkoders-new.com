@@ -76,6 +76,11 @@
   font-size: 22px;
 }
 
+.why-choose-right .para {
+  color: var(--black-color);
+  font-size: 22px;
+}
+
 .why-choose-image .why-choose-image-box {
   background: linear-gradient(0deg, #EF303E 0%, #A00D18 100%);
   padding: 13px 14px;
