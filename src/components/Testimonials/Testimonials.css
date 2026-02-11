@@ -8,6 +8,7 @@
   width: 100%;
   padding: 20px 36px;
   border-radius: 30px;
+  background-repeat: no-repeat;
 }
 
 .testi-numbers-main-top {
@@ -86,6 +87,7 @@
  background-image: url("../../../public/images/tes-2.png");
  border-bottom: 2px solid var(--theme-color);
  border-radius: 10px;
+ background-repeat: no-repeat;
 }
 
 .what-our-clients-says h2 {
