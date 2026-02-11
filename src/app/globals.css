@@ -28,7 +28,7 @@
   --white-color: #ffffff;
   --black-color: #000000;
   --theme-color: #d41423;
-  --theme-gradient: linear-gradient(0deg, #9fd815 0%, #dcff86 100%);
+  --theme-gradient: linear-gradient(0deg, #EF303E 0%, #A00D18 100%);
   --theme-gradient-dark: linear-gradient(180deg, #5b5b5b 0%, #000000 100%);
 }
 
