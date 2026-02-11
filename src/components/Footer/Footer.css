@@ -12,8 +12,12 @@
       rgba(212, 20, 35, 0.11) 100%);
   padding: 40px 66px;
   border-radius: 40px;
-  border: 1px solid #D41423;
-  
+  border: 1px solid;
+  border-color: linear-gradient(
+    rgba(212, 20, 35,  0.15) 0%,
+    rgba(212, 20, 35, 0) 25.79%,
+    rgba( 212, 20, 35, 0) 76.25%,
+    rgba(212, 20, 35, 0.15) 100%,);
   
   
 }
