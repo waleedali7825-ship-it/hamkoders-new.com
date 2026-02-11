@@ -259,7 +259,7 @@ const currentYear = currentDate.getFullYear();
 
                 <div className="row">
                   <div className="col-lg-12">
-                    <p className="para text-center" style={{color: "#000"}}>Ⓒ All Rights Reserved {currentYear} - Hadztech</p>
+                    <p className="para text-center" style={{color: "#000"}}>Ⓒ All Rights Reserved {currentYear} - Hamkoders</p>
                   </div>
                 </div>
               </div>
