@@ -10,20 +10,17 @@ const AboutBanner = () => {
           <div className="col-lg-12">
             <div className="about-banner-content">
               <h4>
-                Welcome to <span>Hadztech</span>
+                WITH<span>HAMKODERS</span>
               </h4>
               <h1 className="same-heading">
-                We Build <span>Digital Experiences</span>
+                WE DON’T JUST <span>CREATE SOFTWARE </span>
               </h1>
               <h1 className="same-heading">
-                <span>That</span> Customers Trust
+                <span>WE CREATE</span> SUCCESS STORIES
               </h1>
 
               <p className="para">
-                We design and develop Website experiences that fascinate users
-                and deliver tremendous business growth. Our goal is to create
-                high quality impression, user-friendly solutions that repeat our
-                clients for work.
+                Our journey began with a clear mission to support businesses through innovative digital solutions that drive growth, scalability, and performance. We proudly work with startups, SMEs, and global brands to turn ideas into powerful digital experiences.
               </p>
 
               <div className="about-content-btn">
