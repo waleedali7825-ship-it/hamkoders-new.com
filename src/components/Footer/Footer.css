@@ -6,10 +6,10 @@
 
 .footer .footer-main-content {
   background: linear-gradient(180deg,
-      rgba(160, 216, 22, 0.09) 0%,
-      rgba(160, 216, 22, 0) 25.79%,
-      rgba(160, 216, 22, 0) 76.25%,
-      rgba(160, 216, 22, 0.09) 100%);
+      rgba(212, 20, 35, 0.09) 0%,
+      rgba(212, 20, 35, 0) 25.79%,
+      rgba(212, 20, 35, 0) 76.25%,
+      rgba(212, 20, 35, 0.09) 100%);
   padding: 40px 66px;
   border-radius: 40px;
   border: 1px solid linear-gradient(
