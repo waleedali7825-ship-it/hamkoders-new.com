@@ -10,13 +10,10 @@ const AboutSec = () => {
             <div className="home-about-content home-about-contentXtra">
               <div className="home-about-left">
                 <h3 className="same-heading">
-                  Our <span>Mission</span>
+                  WHO <span>WE </span>ARE
                 </h3>
                 <p className="para">
-                  HadzTech’s mission is to empower businesses through
-                  innovative, user-focused digital solutions. We blend
-                  functionality and creativity to deliver exceptional UI/UX
-                  experiences that drive rapid growth.
+                  A skilled team of developers, designers, and strategists driven by innovation and technology. We create modern digital solutions that are high-performing, scalable, and ready for future growth.
                 </p>
               </div>
               <div className="home-about-right home-about-rightXtra">
@@ -24,10 +21,7 @@ const AboutSec = () => {
                   Our <span>Vision</span>
                 </h3>
                 <p className="para">
-                  Our vision is to become a leading global technology partner,
-                  delivering impactful digital experiences and setting new
-                  standards for creativity, performance, and customer
-                  satisfaction.
+                  We aim to deliver reliable, innovative, and scalable digital solutions that empower businesses to grow faster and lead in today’s competitive digital world
                 </p>
               </div>
             </div>

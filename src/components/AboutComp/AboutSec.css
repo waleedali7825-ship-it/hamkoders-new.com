@@ -1,5 +1,5 @@
 .home-about-content {
-  background-image: url("../../../public/images/home-about.webp");
+  background-image: url("../../../public/images/home-about-1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,7 +99,7 @@ home-about-content home-about-contentXtra
     background-image: none;
   }
  .home-about-content.home-about-contentXtra {
-    background-image: url("../../../public/images/home-about-mobile.webp");
+    background-image: url("../../../public/images/home-about-mobile.png");
     flex-direction: column;
     padding: 143px 20px 60px;
   }
