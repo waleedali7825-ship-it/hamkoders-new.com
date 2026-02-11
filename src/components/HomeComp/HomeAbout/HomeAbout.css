@@ -8,6 +8,7 @@
   justify-content: space-between;
   width: 100%;
   padding: 512px 30px 100px;
+  border-radius: 20px;
 }
 
 .home-about-btn {
