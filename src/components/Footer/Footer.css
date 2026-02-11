@@ -1,5 +1,11 @@
 .footer {
   margin: 100px 0px 20px;
+  border: 2px solid;
+  border-color: linear-gradient(
+    rgba(212, 20, 35,  0.15) 0%,
+    rgba(212, 20, 35, 0) 26%,
+    rgba( 212, 20, 35, 0) 76%,
+    rgba(212, 20, 35, 0.15) 100%,);
   
   
 }
@@ -57,12 +63,6 @@
   margin-bottom: 40px;
   position: relative;
   z-index: 1;
-  border: 2px solid;
-  border-color: linear-gradient(
-    rgba(212, 20, 35,  0.15) 0%,
-    rgba(212, 20, 35, 0) 26%,
-    rgba( 212, 20, 35, 0) 76%,
-    rgba(212, 20, 35, 0.15) 100%,);
 }
 
 .footer-main-content .footer-border::before {
