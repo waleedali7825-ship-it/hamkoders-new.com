@@ -9,19 +9,19 @@ const AboutProgress = () => {
           <div className="col-lg-4 col-md-6 col-12">
             <div className="about-progress-box">
               <h3>100%</h3>
-              <h4>5 star reviews</h4>
+              <h4>Five-Star Client Reviews</h4>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="about-progress-box">
               <h3>150+</h3>
-              <h4>Projects delivered</h4>
+              <h4>Projects Successfully Delivered</h4>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="about-progress-box">
               <h3>10+</h3>
-              <h4>years of experience</h4>
+              <h4>Years of Industry Experience</h4>
             </div>
           </div>
         </div>

@@ -14,12 +14,12 @@ const HomeAbout = () => {
                   About <span>us</span>
                 </h3>
                 <p className="para">
-                     Duis a orci blandit, gravida nisi ut, mattis est. Praesent ut maximus tellus. Quisque tempor hendrerit felis ut rutrum.
+                     We are a digital agency delivering smart solutions for growing businesses worldwide with clarity, consistency, and measurable results today.
                 </p>
               </div>
               <div className="home-about-right">
                 <p className="para">
-                  Pellentesque habitant morbi tristique senectus et netus et  fames ac turpis egestas. Suspendisse lobortis in orci . Maecenas porta hendrerit mattis.                </p>
+                  Our team helps brands plan, build, and scale online using proven strategies, reliable technology, and experience across global markets successfully.                </p>
                 <div className="home-about-btn">
                   <Link href={"/about"} className="global-btn-outline">
                     Learn More

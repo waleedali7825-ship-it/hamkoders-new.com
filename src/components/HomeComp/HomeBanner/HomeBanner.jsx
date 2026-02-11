@@ -69,7 +69,7 @@ const HomeBanner = () => {
               </h1>
 
               <p>
-                We don’t just build digital solutions, we craft experiences that resonate, innovate, and transform. With cutting-edge technology and a relentless commitment to excellence, we empower businesses to succeed without fail.
+                We don’t create digital solutions.We design meaningful experiences that inspire growth and deliver results. With proven technologies and strong focus on quality, we help businesses grow, scale, and succeed with confidence.
               </p>
             </div>
             <div className="home-banner-links">
@@ -79,7 +79,7 @@ const HomeBanner = () => {
 
             <div className="home-banner-span">
               <span>
-                A dynamic agency dedicated to bringing innovative ideas to life.
+                A results-driven digital agency turning ideas into impactful digital experiences.
               </span>
             </div>
           </div>

@@ -25,10 +25,10 @@ const WhyChoose = () => {
               </div>
               <div className="why-choose-box-left-content">
                 <h3 className="same-heading">
-                  <span>Data-Driven Approach,</span> Our Mission
+                  <span>Data-Driven </span>  Approach
                 </h3>
                 <p className="para">
-                  Partner with a design agency for startups that crafts personalized digital strategies to achieve success.
+                  Every decision is guided by real-time analytics and insights for maximum impact, helping brands grow faster and perform better.
                 </p>
                 <div className="why-choose-box-readMore">
                   <Link href={"#"} onClick={(e) => e.preventDefault()} data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -48,10 +48,10 @@ const WhyChoose = () => {
               </div>
               <div className="why-choose-box-left-content">
                 <h3 className="same-heading">
-                  <span>Engagement</span> That Matters
+                  <span> CREATIVE & </span> INNOVATIVE
                 </h3>
                 <p className="para">
-                  We help startups connect authentically with their audience through thoughtful and intuitive digital experiences.
+                   Innovative digital marketing strategies and creative solutions keep your brand ahead of competitors in today’s global market
                 </p>
                 <div className="why-choose-box-readMore">
                   <Link href={"#"} onClick={(e) => e.preventDefault()} data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -71,10 +71,10 @@ const WhyChoose = () => {
               </div>
               <div className="why-choose-box-left-content">
                 <h3 className="same-heading">
-                  <span>Innovative</span> Brand Experiences
+                  <span>TRANSPARENT</span> REPORTING
                 </h3>
                 <p className="para">
-                  We bring creativity and strategy together to build strong brand presence and lasting trust.
+                   Clear performance tracking and detailed reporting ensure you always understand results, ROI, and consistent digital growth progress.
                 </p>
                 <div className="why-choose-box-readMore">
                   <Link href={"#"} onClick={(e) => e.preventDefault()} data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -93,7 +93,7 @@ const WhyChoose = () => {
                 <span>Your Success</span> is <br /> Our Mission
               </h2>
               <p className="para">
-                Committed to providing dependable, high-quality solutions that drive business forward with clarity and purpose.
+                In today’s fast-paced digital world, choosing the right digital partner creates real difference. At Hamkoders, we build strategies that deliver measurable growth, strong branding, and long-term success globally.
               </p>
 
               <div className="why-choose-image">
